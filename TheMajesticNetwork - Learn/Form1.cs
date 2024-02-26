@@ -36,7 +36,7 @@ namespace TheMajesticNetwork___Learn
         {
 
 
-            String getreq = Get("http://192.168.68.100:8081/chat?custom=True&personality=You%20are%20incredibly%20smart%20in%20every%20subject.%20There%20is%20nothing%20you%20dont%20know.%20You%20are%20smart%20in%20math,%20science,%20english,%20english%20literature,%20biology,%20literally%20everything.&chat=" + textBox1.Text);
+            String getreq = Get("http://198.91.25.193:20008/chat?custom=True&personality=You%20are%20incredibly%20smart%20in%20every%20subject.%20There%20is%20nothing%20you%20dont%20know.%20You%20are%20smart%20in%20math,%20science,%20english,%20english%20literature,%20biology,%20literally%20everything.&chat=" + textBox1.Text);
 
             richTextBox1.Text = getreq;
             textBox1.Text = string.Empty;
@@ -47,7 +47,7 @@ namespace TheMajesticNetwork___Learn
             if (e.KeyChar == (char)13)
             {
 
-                String getreq = Get("http://192.168.68.100:8081/chat?custom=True&personality=You%20are%20incredibly%20smart%20in%20every%20subject.%20There%20is%20nothing%20you%20dont%20know.%20You%20are%20smart%20in%20math,%20science,%20english,%20english%20literature,%20biology,%20literally%20everything.&chat=" + textBox1.Text);
+                String getreq = Get("http://198.91.25.193:20008//chat?custom=True&personality=You%20are%20incredibly%20smart%20in%20every%20subject.%20There%20is%20nothing%20you%20dont%20know.%20You%20are%20smart%20in%20math,%20science,%20english,%20english%20literature,%20biology,%20literally%20everything.&chat=" + textBox1.Text);
 
                 richTextBox1.Text = getreq;
                 textBox1.Text = string.Empty;
